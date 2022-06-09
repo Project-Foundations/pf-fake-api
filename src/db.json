@@ -1,0 +1,25 @@
+{
+  "options": [
+    {
+      "id": 1,
+      "name": "Productos",
+      "link": "/products",
+      "path": "/products/*",
+      "url": "//localhost:3001/remoteEntry.js",
+      "scope": "mfProducts",
+      "module": "./ProductsRoute"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Producto 1",
+      "price": 10.20
+    },
+    {
+      "id": 2,
+      "name": "Producto 2",
+      "price": 25.12
+    }
+  ]
+}

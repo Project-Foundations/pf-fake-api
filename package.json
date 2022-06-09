@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:api": "node src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "packageManager": "pnpm@7.1.8",
+  "dependencies": {
     "json-server": "^0.17.0"
   }
 }
